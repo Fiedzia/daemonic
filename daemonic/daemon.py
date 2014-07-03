@@ -10,7 +10,7 @@ import atexit
 import signal
 import time
 
-import pidfile
+from . import pidfile
 
 class daemon(object):
     'Context manager for POSIX daemon processes'
